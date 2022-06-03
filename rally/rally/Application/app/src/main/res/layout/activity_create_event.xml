@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateEventActivity">
+
+    <EditText
+        android:id="@+id/Location"
+        android:layout_width="208dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/EventName"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:importantForAutofill="no"
+        android:hint="Location"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/EventName"
+        android:layout_width="205dp"
+        android:layout_height="41dp"
+        android:autofillHints= ""
+        android:hint="Event Name"
+        android:importantForAutofill="no"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/Capacity"
+        android:layout_width="205dp"
+        android:layout_height="41dp"
+        android:layout_below="@id/timePickerBtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:hint="Capacity"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/datePickerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Location"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:importantForAutofill="no"
+        android:onClick="openDatePicker"
+        android:text="Select Date" />
+
+    <Button
+        android:id="@+id/timePickerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datePickerBtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:importantForAutofill="no"
+        android:onClick="openTimePicker"
+        android:text="Select Time" />
+
+    <Button
+        android:id="@+id/publishEventBtn"
+        android:layout_width="193dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/Capacity"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="70dp"
+        android:text="Publish Event" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bottomNavView_Bar"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation_view"
+        android:background="?android:attr/windowBackground">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</RelativeLayout>

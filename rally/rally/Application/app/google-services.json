@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "546498228807",
+    "firebase_url": "https://rally-92b3e-default-rtdb.firebaseio.com",
+    "project_id": "rally-92b3e",
+    "storage_bucket": "rally-92b3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546498228807:android:4d020af4abd79feaeff762",
+        "android_client_info": {
+          "package_name": "com.example.cos420_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546498228807-4a7bs2i8n7lfbi5nca058thpoagfpqqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQOVUUE_D-Kjv3QFhTkX8dc7a2lvKebjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546498228807-4a7bs2i8n7lfbi5nca058thpoagfpqqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
