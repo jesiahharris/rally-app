@@ -32,7 +32,7 @@ To use many of the functions of Rally, the application will need
 - Access to your location
 
 ## Authors
-Developers include Peter Martin, Jesiah Harris, Xingzhou Luo, Mason Yu, and Nicholas Sherman.
+Developers include Jesiah Harris, Peter Martin, Xingzhou Luo, Mason Yu, and Nicholas Sherman.
 
 ## Contributing
 This is a private application. We are not currently acccepting contributions from the public. 
